@@ -19,8 +19,7 @@ Antes de tudo, você precisa instalar as dependências do projeto e configurar s
       GEMINI_API_KEY=SUA_CHAVE_API_AQUI
       ```
     - Você pode obter uma chave de API gratuita no Google AI Studio.
-    - **Nota de segurança:** O arquivo `.env` já está no `.gitignore` do projeto para evitar que sua chave de API seja acidentalmente enviada para o controle de versão.
-
+    
 ## Passo 1: Adicione Seu Currículo
 
 O bot utiliza duas versões do seu currículo: uma em **HTML** para extrair o texto e outra em **PDF** que é enviada para as empresas.
