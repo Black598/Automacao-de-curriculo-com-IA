@@ -1,0 +1,24 @@
+{
+  "name": "ai-job-applier",
+  "version": "1.0.0",
+  "description": "AI Job Applier Bot using Playwright and Gemini",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/bot/linkedin_bot.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^16.4.5",
+    "pdf-parse": "^1.1.1",
+    "playwright": "^1.42.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}

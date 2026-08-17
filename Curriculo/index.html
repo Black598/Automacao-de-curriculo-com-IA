@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Douglas Ferreira</title>
+    <style>
+        /* Reset e Configurações Gerais */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.4;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .page {
+            background-color: #fff;
+            width: 210mm;
+            height: 297mm;
+            margin: 0 auto;
+            padding: 15mm 20mm;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        /* Cabeçalho */
+        header {
+            text-align: center;
+            margin-bottom: 18px;
+        }
+
+        h1 {
+            font-size: 26px;
+            text-transform: uppercase;
+            font-weight: 800;
+            letter-spacing: 1px;
+            margin-bottom: 4px;
+            color: #000;
+            font-family: 'Georgia', 'Garamond', serif;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+
+        .contact-info {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .contact-info a {
+            color: #0066cc;
+            text-decoration: underline;
+            transition: color 0.2s;
+        }
+
+        .contact-info a:hover {
+            color: #004499;
+        }
+
+        .contact-info span {
+            margin: 0 4px;
+            color: #ccc;
+        }
+
+        /* Seções */
+        .section {
+            margin-bottom: 16px;
+        }
+
+        .section-title {
+            font-size: 13px;
+            text-transform: uppercase;
+            font-weight: 800;
+            border-bottom: 1px solid #000;
+            padding-bottom: 3px;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
+        }
+
+        /* Resumo */
+        .summary-text {
+            font-size: 12px;
+            text-align: justify;
+            line-height: 1.4;
+        }
+
+        /* Skills */
+        .skills-list {
+            font-size: 12px;
+            line-height: 1.5;
+        }
+
+        .skill-category {
+            font-weight: 700;
+            color: #000;
+        }
+
+        .skills-list>div {
+            margin-bottom: 4px;
+        }
+
+        /* Experiência */
+        .job-block {
+            margin-bottom: 14px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 4px;
+        }
+
+        .company {
+            font-weight: 800;
+            font-size: 13px;
+        }
+
+        .role {
+            font-style: italic;
+            font-weight: normal;
+            font-size: 13px;
+        }
+
+        .date {
+            font-size: 11px;
+            color: #666;
+            font-style: italic;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 18px;
+            margin-top: 4px;
+        }
+
+        li {
+            font-size: 12px;
+            margin-bottom: 2px;
+            color: #444;
+            line-height: 1.4;
+        }
+
+        /* Educação */
+        .education-block {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 4px;
+            font-size: 12px;
+        }
+
+        .degree {
+            font-weight: 700;
+        }
+
+        .school {
+            font-style: italic;
+        }
+
+        .closing-note {
+            margin-top: 14px;
+            padding-top: 8px;
+            border-top: 1px solid #d9d9d9;
+            font-size: 11px;
+            color: #555;
+            text-align: center;
+        }
+
+        @page {
+            size: A4;
+            margin: 10mm;
+        }
+
+        @media print {
+            body {
+                background-color: #fff;
+                margin: 0;
+                padding: 0;
+            }
+
+            .page {
+                box-shadow: none;
+                margin: 0;
+                width: auto;
+                height: auto;
+                padding: 0;
+                min-height: calc(297mm - 20mm);
+                display: flex;
+                flex-direction: column;
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+
+            .subtitle {
+                font-size: 13px;
+            }
+
+            .section {
+                margin-bottom: 14px;
+            }
+
+            .job-block {
+                margin-bottom: 12px;
+            }
+
+            .summary-text,
+            .skills-list,
+            li,
+            .education-block {
+                font-size: 12px;
+            }
+
+            .closing-note {
+                margin-top: auto;
+                padding-top: 7px;
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="page">
+        <header>
+            <h1>DOUGLAS FERREIRA</h1>
+            <div class="subtitle">Desenvolvedor | Quality Engineering</div>
+            <div class="contact-info">
+                <a href="mailto:doug.oak598@gmail.com" target="_blank">doug.oak598@gmail.com</a> <span>|</span>
+                <a href="https://wa.me/5581986773152" target="_blank">(81) 9 8677-3152</a> <span>|</span>
+                Candeias, Jaboatão dos Guararapes <br>
+                <a href="https://www.linkedin.com/in/douglas-ferreira-dev"
+                    target="_blank">linkedin.com/in/douglas-ferreira-dev</a> <span>|</span>
+                <a href="https://github.com/Black598" target="_blank">github.com/Black598</a>
+            </div>
+        </header>
+
+        <section class="section">
+            <div class="section-title">Resumo Profissional</div>
+            <p class="summary-text">
+                Graduado em Engenharia de Software com atuação em Quality Engineering na Accenture. Especialista em
+                testes de performance e automação, com sólido background em desenvolvimento Web e Mobile
+                (Node.js/TypeScript). Experiência em plataformas de desenvolvimento web e mobile, com uso de bancos de
+                dados variados e foco em automação, testes e versionamento.
+            </p>
+        </section>
+
+        <section class="section">
+            <div class="section-title">Habilidades</div>
+            <div class="skills-list">
+                <div>
+                    <span class="skill-category">Tecnologia de atuação:</span> Web e Mobile, QE, Agentes de IA.
+                </div>
+                <div>
+                    <span class="skill-category">Linguagens:</span> Java, TypeScript, JavaScript, C++.
+                </div>
+                <div>
+                    <span class="skill-category">Frameworks & Libs:</span> ReactJS, React Native, Node.js.
+                </div>
+                <div>
+                    <span class="skill-category">Ferramentas de Teste & CI/CD:</span> Cypress, Postman, JMeter, K6,
+                    Jenkins.
+                </div>
+                <div>
+                    <span class="skill-category">Bancos de Dados:</span> MongoDB e relacionais.
+                </div>
+                <div>
+                    <span class="skill-category">Práticas & Arquitetura:</span> Clean Code, Design Patterns, Arquitetura
+                    Limpa, Metodologias Ágeis, Melhoria contínua de processos.
+                </div>
+                <div>
+                    <span class="skill-category">Soft Skills:</span> Adaptabilidade, Capacidade Analítica, Comunicativo,
+                    Comprometimento, Postura ética, Networking, Curiosidade Intelectual, Empatia.
+                </div>
+                <div>
+                    <span class="skill-category">Idiomas:</span> Português, Inglês intermediário.
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-title">Experiência Profissional</div>
+
+            <div class="job-block">
+                <div class="job-header">
+                    <div>
+                        <span class="company">Accenture</span> <span class="role">- Quality Engineering</span>
+                    </div>
+                    <span class="date">2025 - Atual</span>
+                </div>
+                <ul>
+                    <li>Realizei testes de performance com JMeter e K6, encontrando pontos lentos e ajudando a melhorar
+                        o tempo de resposta da API em cerca de 20%.</li>
+                    <li>Apliquei testes automatizados com Cypress, testes de escalabilidade e testes manuais.</li>
+                </ul>
+            </div>
+
+            <div class="job-block">
+                <div class="job-header">
+                    <div>
+                        <span class="company">Freelancer Internacional</span> <span class="role">- Desenvolvedor
+                            Java</span>
+                    </div>
+                    <span class="date">Atual</span>
+                </div>
+                <ul>
+                    <li>Atuação no mercado internacional como desenvolvedor Java, mantendo o ambiente e realizando
+                        correções de bugs.</li>
+                    <li>Responsável por afazeres gerais de desenvolvimento para garantir a estabilidade e evolução das
+                        aplicações.</li>
+                </ul>
+            </div>
+
+            <div class="job-block">
+                <div class="job-header">
+                    <div>
+                        <span class="company">Freelancer</span> <span class="role">- Desenvolvedor</span>
+                    </div>
+                    <span class="date">2023 - Atual</span>
+                </div>
+                <ul>
+                    <li>Criei um software de controle de estoque que diminuiu erros e acelerou o processo de conferência
+                        para diferentes negócios.</li>
+                    <li>Utilizei tecnologias modernas como Node.js, Expo, TypeScript e JavaScript.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-title">Educação</div>
+
+            <div class="education-block">
+                <div><span class="degree">Engenharia de Software</span>, <span class="school">Universidade Estácio de
+                        Sá</span></div>
+                <div>2021 - 2025</div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-title">Certificações</div>
+
+            <div class="education-block">
+                <div><span class="degree">Tech's cool: Academia Quality Engineering</span></div>
+            </div>
+            <div class="education-block">
+                <div><span class="degree">Reinvention with Agentic AI</span></div>
+            </div>
+            <div class="education-block">
+                <div><span class="degree">NLW IA</span></div>
+            </div>
+            <div class="education-block">
+                <div><span class="degree">Gerência de Projetos de T.I.</span></div>
+            </div>
+            <div class="education-block">
+                <div><span class="degree">Programação de Sistemas de Informação</span></div>
+            </div>
+        </section>
+
+        <div class="closing-note">
+            Disponível para oportunidades em Desenvolvimento e Quality Engineering | Jaboatão dos Guararapes - PE
+        </div>
+
+    </div>
+</body>
+
+</html>
